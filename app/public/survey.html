@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>FriendFinder</title>
+  <title>PokeMatch!</title>
 
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -21,131 +21,130 @@
 
   <div class="container">
 
-    <h2>Survey Questions</h2>
+    <h2>Find your dream Pokemon!</h2>
     <hr>
 
-    <h3><strong>About You</strong></h3>
-    <h4>Name (Required)</h4>
+    <h3><strong>Tell us about yourself!</strong></h3>
+    <h4>What's your name?</h4>
     <input type="text" id="name" class="form-control" required>
 
-    <h4>Link to Photo Image (Required)</h4>
+    <h4>Link to your photo</h4>
     <input type="text" id="photo" class="form-control" required>
 
     <hr>
 
     <h3><strong>Question 1</strong></h3>
-    <h4>Your mind is always buzzing with unexplored ideas and plans.</h4>
+    <h4>Where do you want to play?</h4>
     <select class="chosen-select" id="q1">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="1">The Grass</option>
+      <option value="2">The Sea</option>
+      <option value="3">The Flames</option>
+      <option value="4">The Elevator</option>
+      <option value="5">Outer Space</option>
     </select>
 
     <h3><strong>Question 2</strong></h3>
-    <h4>Generally speaking, you rely more on your experience than your imagination.</h4>
+    <h4>Pick an item</h4>
     <select class="chosen-select" id="q2">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="1">Thunder Stone</option>
+      <option value="2">Moon Stone</option>
+      <option value="3">Grass Stone</option>
+      <option value="4">Water Stone</option>
+      <option value="5">Potion</option>
     </select>
 
 
     <h3><strong>Question 3</strong></h3>
-    <h4>You find it easy to stay relaxed and focused even when there is some pressure.</h4>
+    <h4>How dark is your personal story</h4>
     <select class="chosen-select" id="q3">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
+      <option value="1">1 (Super dark)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5 (Super light)</option>
     </select>
 
 
     <h3><strong>Question 4</strong></h3>
-    <h4>You rarely do something just out of sheer curiosity.</h4>
+    <h4>What is your outlook on life?</h4>
     <select class="chosen-select" id="q4">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
+      <option value="1">1 (Strongly Negative)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5 (Strongly Positive)</option>
     </select>
 
 
     <h3><strong>Question 5</strong></h3>
-    <h4>People can rarely upset you.</h4>
+    <h4>Pick a special ability</h4>
     <select class="chosen-select" id="q5">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="1">Cut</option>
+      <option value="2">Surf</option>
+      <option value="3">Fly</option>
+      <option value="4">Confuse</option>
+      <option value="5">Evolve</option>
     </select>
 
 
     <h3><strong>Question 6</strong></h3>
-    <h4>It is often difficult for you to relate to other people’s feelings.</h4>
+    <h4>Is personal growth important to you?</h4>
     <select class="chosen-select" id="q6">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
+      <option value="1">1 (Strongly No)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5 (Strongly Yes)</option>
     </select>
 
-
     <h3><strong>Question 7</strong></h3>
-    <h4>In a discussion, truth should be more important than people’s sensitivities.</h4>
+    <h4>Where do you want to go hang out?</h4>
     <select class="chosen-select" id="q7">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="1">The Gym</option>
+      <option value="2">The Mall</option>
+      <option value="3">School</option>
+      <option value="4">Home</option>
+      <option value="5">The Beach</option>
     </select>
 
     <h3><strong>Question 8</strong></h3>
-    <h4>You rarely get carried away by fantasies and ideas.</h4>
+    <h4>How evil are you?</h4>
     <select class="chosen-select" id="q8">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
+      <option value="1">1 (Not evil at all)</option>
       <option value="2">2</option>
       <option value="3">3</option>
       <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="5">5 (Super evil)</option>
     </select>
 
     <h3><strong>Question 9</strong></h3>
-    <h4>You think that everyone’s views should be respected regardless of whether they are supported by facts or not.</h4>
+    <h4>What is your life's goal</h4>
     <select class="chosen-select" id="q9">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="1">To catch em all!</option>
+      <option value="2">To make tons of cash $$$</option>
+      <option value="3">To sleep as much as possible</option>
+      <option value="4">To make tons of friends</option>
+      <option value="5">To take care of my family</option>
     </select>
 
     <h3><strong>Question 10</strong></h3>
-    <h4>You feel more energetic after spending time with a group of people.</h4>
+    <h4>What's your hobby?</h4>
     <select class="chosen-select" id="q10">
       <option value=""></option>
-      <option value="1">1 (Strongly Disagree)</option>
-      <option value="2">2</option>
-      <option value="3">3</option>
-      <option value="4">4</option>
-      <option value="5">5 (Strongly Agree)</option>
+      <option value="1">Swimming</option>
+      <option value="2">Cycling</option>
+      <option value="3">Making electronics</option>
+      <option value="4">Painting</option>
+      <option value="5">Flying</option>
     </select>
 
     <br>
@@ -158,7 +157,7 @@
     <hr>
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub Repo</a></p>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/tamhartman/friendfinder">GitHub Repo</a></p>
       </div>
     </footer>
 
